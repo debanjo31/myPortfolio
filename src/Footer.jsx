@@ -26,7 +26,7 @@ function Footer() {
                         <textarea  name="entry.1065046570" type="text" required className='bg-transparent focus:border-b-2 outline-none pb-8 block w-full border-b-2 border-white' placeholder='MESSAGE'  />
                         <button onClick={handleClick} className="bg-[#ee5e2d] font-bold lg:text-xl lg:px-4 px-2 py-2 mt-4 rounded-xl block sm:ml-auto">Send Message</button>
                 </form>
-                <iframe name="hidden_iframe" id="hidden_iframe" className='hidden' ></iframe>
+                <iframe name="hidden_iframe" id="hidden_iframe" title='hidden_iframe' onLoad={submit} className='hidden' ></iframe>
                 
             </div>
         </div>
