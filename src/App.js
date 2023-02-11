@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
     <div className="App text-white ">
-      <div className='w-5/6 mx-auto bg-[#2a2b2f] lg:w-3/4'>
+      <div className='w-5/6 mx-auto bg-[#2a2b2f] xl:w-3/4'>
           <Navbar />
           <Homepage />
           <About />

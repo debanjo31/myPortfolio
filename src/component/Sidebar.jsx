@@ -4,7 +4,7 @@ import SocialIcons from './SocialIcons';
 
 function Sidebar({setOpenBar}) {
   return (
-    <div className='min-h-100 sidebar  z-60 overflow-hidden	overflow-hidden	snap-none  bg-[#141414] absolute text-white inset-0'>
+    <div className='min-h-100 sidebar z-60 overflow-hidden	snap-none  bg-[#141414] absolute text-white inset-0'>
         <div className='flex justify-between mx-4 my-4 '>
             <img src="" className="block" alt='' />
             <p onClick={()=> setOpenBar(false)} className='block font-bold cursor-pointer text-2xl mt-3 mr-5'>X</p>
@@ -15,7 +15,7 @@ function Sidebar({setOpenBar}) {
             <p>My Skills</p>
             <p> <a href="#works">My Works</a></p>
             <p>Contact</p>
-            <div className='flex  justify-around gap-12 text-3xl'>
+            <div className='text-3xl'>
                 <SocialIcons /> 
             </div>
         </div>

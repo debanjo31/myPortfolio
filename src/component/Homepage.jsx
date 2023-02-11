@@ -1,11 +1,30 @@
 import React from 'react'
 import HomePage from './images/homepage.jpg'
+import { TypeAnimation } from 'react-type-animation';
 
 function Homepage() {
   return (
     <div className='mt-10 md:flex  justify-between'>
         <div className="text mb-8 md:w-1/2">
-            <p>Hi I'm Adebanjo Israel, A Front-end Engineer</p>
+        <TypeAnimation 
+      sequence={[
+        `Hi I'm Adebanjo Israel, A Front-end Engineer`, // Types 'One'
+        1000, // Waits 1s
+        `Hi I'm Adebanjo Israel, A Technical Writer`, // Types 'One'
+        1000,
+        `Hi I'm Adebanjo Israel, A Content Creator`, // Types 'One'
+        1000,
+        () => {
+          console.log('Done typing!'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="p"
+      repeat={Infinity}
+      speed={1}
+      cursor={true}
+      className=' '
+    />            
+            <p></p>
             <h1 className='mt-2 text-6xl lg:text-7xl xl:text-8xl xl:leading-[8rem] lg:leading-[7rem] leading-relaxed '>I Build Clean and Scalable Softwares</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque dignissimos saepe iure fuga at voluptates pariatur quas minus consectetur!
