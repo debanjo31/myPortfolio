@@ -8,8 +8,8 @@ function About() {
       <div className='w-5/6 mx-auto'>
         <div className=" relative lg:w-1/2 ml-[-15] " >
             <img src={aboutImage} alt='About' className=" w-72 m-auto h-88 rounded-3xl  rotate-[-5deg] border-4 border-black "/>
-            <img src={myImage} alt="My personal" className="border-4 border-black w-36 m-auto h-88 rounded-full  rotate-[-5deg] absolute top-72 left-16 " />
-            <p className='bg-gray-900 bg-opacity-50 inline-block px-4 py-4 rounded-full border-2 border-black text-4xl rotate-[-25deg] absolute top-80 left-40'> &lt;/&gt; </p>
+            <img src={myImage} alt="My personal" className="border-4 border-black w-48 m-auto  rounded-full  rotate-[-5deg] absolute top-72 left-16 " />
+            <p className='bg-gray-900 bg-opacity-50 inline-block px-4 py-4 rounded-full border-2 border-black text-4xl rotate-[-25deg] absolute top-80 left-56'> &lt;/&gt; </p>
         </div> 
         <div className='pb-12 md:w-1/2 mt-24 '>
             <p className='text-[#2a2b2f] lg:text-md'>ABOUT ME</p>
