@@ -6,7 +6,7 @@ function Footer() {
   const [submit,setSubmit] = useState(false);
   const handleClick = () => {
     setSubmit(true);
-    window.location='https://www.google.com/'
+    window.location='https://www.debanjo.netlify.app/'
   }
   return (
     <div className="bg-black mt-24 py-10">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Work1 from './images/work1.jpg'
+import Work1 from './images/work1.gif'
 import Work2 from './images/work2.jpg'
 import Work3 from './images/work3.jpg'
 import Work4 from './images/work4.jpg'
@@ -9,7 +9,7 @@ function Works() {
     return (
       <div>
           <img src={props.portfolio.img} className="w-72 rounded-xl" alt="Project 1"/>
-          <p className='text-xl mt-4 font-bold'>{props.portfolio.title}</p>
+          <p className='text-xl mt-4 font-bold cursor-pointer'>{props.portfolio.title}</p>
         <p className='text-gray-300'>{props.portfolio.language}</p>
       </div>
     )

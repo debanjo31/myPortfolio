@@ -4,12 +4,14 @@ import SocialIcons from './SocialIcons';
 import { FaBars } from 'react-icons/fa';
 import Sidebar from './Sidebar';
 
+
+
 function Navbar() {
   const [openBar, setOpenBar] = useState(false);
   return (
-    <nav className="0 text-white flex items-center justify-between px-4 py-3 md:px-6 ">
-      <div className="flex items-center flex-shrink-0 mr-6">
-        <img src="/logo.svg" alt="Logo" className="h-8 w-8" />
+    <nav className="0 text-white flex items-center justify-between  py-3 md:px-6 ">
+      <div >
+        <p className='text-lg text-[#ee5e2d]'>&lt; Adebanjo Israel /&gt;</p>
       </div>
       <div className='md:hidden'>
                 <FaBars onClick={() => setOpenBar(true)} className='text-xl cursor-pointer mt-3 mr-5'/>
