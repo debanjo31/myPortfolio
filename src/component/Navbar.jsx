@@ -10,7 +10,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Navbar() {
   const [openBar, setOpenBar] = useState(false);
   return (
-    <nav className="0 text-white flex items-center justify-between  py-3 ">
+    <nav className="bg-[#2a2b2f] text-white flex items-center justify-between py-3 w-5/6 mx-auto ">
       <div >
       <TypeAnimation 
       sequence={[
