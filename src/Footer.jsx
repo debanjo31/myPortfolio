@@ -1,4 +1,3 @@
-
 import React, {useState} from 'react'
 import SocialIcons from './component/SocialIcons'
 
@@ -10,7 +9,7 @@ function Footer() {
   }
   return (
     <div className="bg-black pt-16 py-10">
-      <div className='w-5/6 mx-auto '>
+      <div className='w-4/6 mx-auto '>
         <div className='flex flex-col sm:flex-row mb-4'>
             <div className='mb-4 sm:w-1/2 pr-8'>
                 <p>Let's Talk</p>

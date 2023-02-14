@@ -10,8 +10,8 @@ import { BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className="App text-white ">
-      <div className='lg:w-5/6 mx-auto bg-[#2a2b2f] xl:w-3/4'>
+    <div className="App  mx-auto bg-[#2a2b2f] text-white ">
+      <div className='xl:w-5/6 mx-auto'>
           <Navbar />
           <Homepage />
           <About />
