@@ -23,7 +23,7 @@ const FadeUp = batch(Fade(), Move(), Sticky());
       <p className='text-gray-300 text-sm lg:text-md '>ABOUT ME</p>
       <h2 className='font-bold text-3xl mt-2 lg:text-4xl lg:mb-8 lg:mt-4'>My Skills</h2>
       <ScrollContainer>
-      <ScrollPage page={2}>
+      <ScrollPage >
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
       <div className='flex flex-wrap justify-between mb-2 px-2 py-2 gap-6'>
           <img className='block w-24 lg:w-32' alt='Git' src={Git} />
