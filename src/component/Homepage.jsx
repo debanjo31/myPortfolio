@@ -1,7 +1,7 @@
 import React from 'react'
 import HomePage from './images/homepage.jpg'
 import { TypeAnimation } from 'react-type-animation';
-import { useAnimation, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 
 function Homepage() {
   return (
