@@ -11,13 +11,33 @@ import HtmlImg from  './images/html.png'
 import BootstrapImg from  './images/bootstrap.png'
 import SassImg from  './images/sass.png'
 import FirebaseImg from  './images/firebase.png'
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect} from 'react';
+
 
 
 function Skills() {
- 
+  const squareVariants = {
+    visible: { opacity: 1, scale: 1,x : 0, transition: { duration: 0.8 } },
+    hidden: { opacity: 0.5,x: -100, scale: 0, }
+  };
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+    else{
+      setTimeout(() => {
+        controls.start("hidden"); 
+      }, 1000);
+      
+    }
+  }, [controls, inView]);
   return (
     <div id='skills' className='pt-24 bg-black px-4 py-6 relative md:px-8 md:py-12 lg:px-12 lg:py-12 pb-96 md:pb-96 lg:pb-96 rounded-2xl '>
-      <div className='w-5/6 mx-auto'>
+      <motion.div className='w-5/6 mx-auto' ref={ref} animate={controls} initial={{ opacity: 0, scale: 0.5, x:100 }} variants={squareVariants} >
       <p className='text-gray-300 text-sm lg:text-md '>ABOUT ME</p>
       <h2 className='font-bold text-3xl mt-2 lg:text-4xl lg:mb-8 lg:mt-4'>My Skills</h2>
       <div className='flex flex-wrap justify-between mb-2 px-2 py-2 gap-6'>
@@ -34,7 +54,7 @@ function Skills() {
           <img className='block w-24 lg:w-32' alt='SASS' src={SassImg} />
           <img className='block w-24 lg:w-32' alt='Firebase' src={FirebaseImg} />
       </div>  
-    </div>
+    </motion.div>
     </div>
   )
 }
