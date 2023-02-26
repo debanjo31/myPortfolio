@@ -8,7 +8,7 @@ function Homepage() {
     <div className='mt-10 lg:flex w-5/6 mx-auto justify-between' id='home'>
         <motion.div className="text mb-8 lg:w-1/2" initial={{ opacity: 0, scale: 0.5, x:100 }}
     animate={{ opacity: 1, scale: 1, x:0 }}
-    transition={{ duration: 2 }}>
+    transition={{ duration: 1 }}>
         <TypeAnimation 
       sequence={[
         `Hi I'm Adebanjo Israel, A Front-end Engineer`, // Types 'One'
