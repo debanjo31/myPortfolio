@@ -38,8 +38,9 @@ function About() {
         <motion.div className='pb-12 lg:w-1/2 mt-36 lg:mt-1 ' ref={ref} animate={controls}initial="hidden" variants={squareVariants2}>
             <p className=' lg:text-md'>ABOUT ME</p>
             <h3 className='text-5xl my-5 lg:text`-6xl  '>Hello! I'm Adebanjo Israel</h3>
-            <p className=' lg:leading-[2.5rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque dignissimos saepe iure fuga at voluptates pariatur quas minus consectetur!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque dignissimos saepe iure fuga at voluptates pariatur quas minus consectetur!</p>
+            <p className=' lg:leading-[2.5rem]'>I am a front-end Software Engineer highly expereienced in designing and devleloping responsive web applications. My dexterity lises in utilising 
+            in React,Javascript,CSS and HTML5  to create elegant, intuitive and user-friendly interfaces that improves user experiences</p>
+            <p className='lg:leading-[2.5rem] mt-4'>With a keen eye for design and passion for clean and maintainable code, i'm dedicated to high-quality solutions that meets the needs of my clients</p>
         </motion.div>
         </div>
     </div>

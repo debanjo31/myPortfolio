@@ -9,12 +9,12 @@ function Footer() {
   }
   return (
     <div className="bg-black pt-16 py-10">
-      <div className='w-4/6 mx-auto '>
+      <div className='w-4/6 mx-auto ' id='contact'>
         <div className='flex flex-col sm:flex-row mb-4'>
             <div className='mb-4 sm:w-1/2 pr-8'>
                 <p>Let's Talk</p>
                 <h2 className='text-4xl lg:text-5xl my-3 font-bold'>Contact Me</h2>
-                <p className='sm:leading-[2] lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloremque dignissimos saepe iure fuga at voluptates pariatur quas minus consectetur!</p>
+                <p className='sm:leading-[2] lg:text-xl'>If you're interested in working with me or have any question, pls don't hesitate to reach out. I'm always open to new opportunities and would love to hear from you.</p>
             </div>
             <div id='contact' className='sm:w-1/2'>
                 <form target="hidden_iframe" action="https://docs.google.com/forms/d/e/1FAIpQLScA_7Q0BfuBX9E51eQhAaIUG0hHePlk4lMT7iELINwvHNk9Dw/formResponse">
