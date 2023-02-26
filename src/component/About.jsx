@@ -32,13 +32,13 @@ function About() {
       <div className=' lg:flex lg:justify-between w-5/6 mx-auto'>
         <motion.div className=" relative lg:w-1/2 ml-[-15] pt-12 " ref={ref} animate={controls} initial="hidden" variants={squareVariants} >
             <img src={aboutImage} alt='About' className=" w-72 m-auto h-88 rounded-3xl  rotate-[-5deg] border-4 border-black "/>
-            <img src={myImage} alt="My personal" className="border-4 border-black w-48 m-auto  rounded-full  rotate-[-5deg] absolute top-72 left-16 " />
+            <img src={myImage} alt="My personal" className="border-4 border-black  m-auto  rounded-full  rotate-[-5deg] absolute top-80 left-16 h-56 w-56 " />
             <p className='bg-gray-900 bg-opacity-50 inline-block px-4 py-4 rounded-full border-2 border-black text-4xl rotate-[-25deg] absolute top-80 left-56'> &lt;/&gt; </p>
         </motion.div> 
         <motion.div className='pb-12 lg:w-1/2 mt-36 lg:mt-1 ' ref={ref} animate={controls}initial="hidden" variants={squareVariants2}>
             <p className=' lg:text-md'>ABOUT ME</p>
             <h3 className='text-5xl my-5 lg:text`-6xl  '>Hello! I'm Adebanjo Israel</h3>
-            <p className=' lg:leading-[2.5rem]'>I am a front-end Software Engineer highly expereienced in designing and devleloping responsive web applications. My dexterity les in utilising 
+            <p className=' lg:leading-[2.5rem]'>I am a front-end Software Engineer highly expereienced in designing and devleloping responsive web applications. My dexterity lies in utilising 
             React,Javascript,CSS and HTML5  to create elegant, intuitive and user-friendly interfaces that improves user experiences</p>
             <p className='lg:leading-[2.5rem] mt-4'>With a keen eye for design and passion for clean and maintainable code, i'm dedicated to high-quality solutions that meets the needs of my clients</p>
         </motion.div>
