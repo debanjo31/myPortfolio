@@ -7,8 +7,8 @@ import { useEffect} from 'react';
 
 function About() {
   const squareVariants = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
-    hidden: { opacity: 0, scale: 0 }
+    visible: { opacity: 1, scale: 1,x : 0, transition: { duration: 0.8 } },
+    hidden: { opacity: 0.5,x: -100, scale: 0, }
   };
   const squareVariants2 = {
     visible: { opacity: 1, scale: 1, transition: { duration: 1.5, ease: "easeOut" } },
@@ -28,9 +28,9 @@ function About() {
     }
   }, [controls, inView]);
   return (
-    <div id="about" className='mt-16 bg-white pt-8 text-[#2a2b2f] lg:bg-[#2a2b2f] lg:text-white lg:mb-36'>
+    <div id="about" className=' bg-white text-[#2a2b2f] lg:bg-[#2a2b2f] lg:text-white lg:mb-36'>
       <div className=' lg:flex lg:justify-between w-5/6 mx-auto'>
-        <motion.div className=" relative lg:w-1/2 ml-[-15]  " ref={ref} animate={controls} initial="hidden" variants={squareVariants} >
+        <motion.div className=" relative lg:w-1/2 ml-[-15] pt-12 " ref={ref} animate={controls} initial="hidden" variants={squareVariants} >
             <img src={aboutImage} alt='About' className=" w-72 m-auto h-88 rounded-3xl  rotate-[-5deg] border-4 border-black "/>
             <img src={myImage} alt="My personal" className="border-4 border-black w-48 m-auto  rounded-full  rotate-[-5deg] absolute top-72 left-16 " />
             <p className='bg-gray-900 bg-opacity-50 inline-block px-4 py-4 rounded-full border-2 border-black text-4xl rotate-[-25deg] absolute top-80 left-56'> &lt;/&gt; </p>
