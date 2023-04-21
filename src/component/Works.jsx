@@ -30,16 +30,11 @@ function Works() {
         <p className='text-gray-300 text-sm lg:text-md '>ABOUT ME</p>
         <h2 className='font-bold text-3xl mt-2 lg:text-4xl lg:mb-8 lg:mt-4'>Latest Works</h2>
         <div className='flex flex-wrap items-center justify-center mt-12 gap-8' >            
-        
-        <Work portfolio={{title:"Africana Landing Page", url:"https://africanna.netlify.app/", img: `${Work1}`, language : "React x Tailwind Css x Framer Motion"}} />
-           
-        <Work portfolio={{title:"Laundry Lab", url:"https://laundryservice.netlify.app/", img: `${Work3}`, language : "Html x CSS"}} /> 
-            
-        <Work portfolio={{title:"QR Code Generator", url:"https://qrbarcode-generator.netlify.app/", img: `${Work2}`, language : "Html x TailwindCSS x Javascript "}} />
-        
-        <Work portfolio={{title:"Quiz App", url:"https://dee-quiz.netlify.app/", img: `${Work4}`, language : "JavaScript x Html x CSS"}} /> 
-        </div>
-       
+            <Work portfolio={{title:"Africana Landing Page", url:"https://africanna.netlify.app/", img: `${Work1}`, language : "React x Tailwind Css x Framer Motion"}} />
+            <Work portfolio={{title:"Laundry Lab", url:"https://laundryservice.netlify.app/", img: `${Work3}`, language : "Html x CSS"}} />   
+            <Work portfolio={{title:"QR Code Generator", url:"https://qrbarcode-generator.netlify.app/", img: `${Work2}`, language : "Html x TailwindCSS x Javascript "}} />
+            <Work portfolio={{title:"Quiz App", url:"https://dee-quiz.netlify.app/", img: `${Work4}`, language : "JavaScript x Html x CSS"}} /> 
+        </div>       
     </div>
   )
 }
