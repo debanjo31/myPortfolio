@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 function Homepage() {
   return (
     <div className="mt-10 lg:flex w-5/6 mx-auto justify-between" id="home">
-      <div>
+      <div className="text mb-8 lg:w-1/2">
         <TypeAnimation
           sequence={[
             `Hi I'm Adebanjo Israel, A Front-end Engineer`, // Types 'One'
@@ -24,7 +24,6 @@ function Homepage() {
           cursor={true}
           className=" "
         />
-        <p></p>
         <h1 className="mt-2 text-6xl lg:text-7xl xl:mb-8 xl:leading-[8rem] lg:leading-[7rem] leading-relaxed ">
           I Build Clean and Scalable Software
         </h1>
