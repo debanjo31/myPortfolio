@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import SocialIcons from "./SocialIcons";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "./Sidebar";
