@@ -8,7 +8,7 @@ function Homepage() {
       <div className="text mb-8 lg:w-1/2">
         <TypeAnimation
           sequence={[
-            `Hi I'm Adebanjo Israel, A Front-end Engineer`, // Types 'One'
+            `Hi I'm Adebanjo Israel, A Fullstack Engineer`, // Types 'One'
             2000, // Waits 1s
             `Hi I'm Adebanjo Israel, A Technical Writer`, // Types 'One'
             2000,

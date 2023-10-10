@@ -69,11 +69,11 @@ function About() {
             Hello! I'm Adebanjo Israel
           </h3>
           <p className=" lg:leading-[2.5rem]">
-            I am a Front-End Software Engineer highly experienced in designing
+            I am a Fullstack Software Engineer highly experienced in designing
             and developing responsive web applications. My dexterity lies in
-            utilising React,Javascript,CSS and HTML5 to create elegant,
+            utilising NextJS,React,Javascript,and TypeScript to create elegant,
             intuitive and user-friendly interfaces that improves user
-            experiences
+            experiences and creating sever side applications using NodeJS, ExpressJS, Django along with all major database.
           </p>
           <p className="lg:leading-[2.5rem] mt-4">
             With a keen eye for design and passion for clean and maintainable
